@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: domande-condivise
-    runtime: python
-    plan: free
-    buildCommand: "true"
-    startCommand: python3 server.py
-    healthCheckPath: /domande.html
