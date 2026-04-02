@@ -37,7 +37,7 @@ QUESTION_OPTIONS_BY_SURVEY = {
         "urgency": ("SUBITO (STESSO GIORNO)", "ENTRO 1-2 GIORNI", "NON E' URGENTE"),
         "app_usage": ("SI'", "NO"),
         "safety_importance": ("MOLTO", "ABBASTANZA", "POCO"),
-        "average_payment": ("5-10EUR", "10-20EUR", "20-30EUR", "PIU' DI 30EUR"),
+        "average_payment": ("5-8 EUR/H", "8-12 EUR/H", "PIU' DI 12 EUR/H"),
     },
 }
 def ensure_responses_file() -> None:
